@@ -20,7 +20,7 @@ Simple social media app created with flexbox.
 
 #### Screenshot
 
-![APP SCREENSHOT]("C:\Users\Kamil\Desktop\Projekta\ROBIĘ\CSS_Course\Flexbox_Project\Screenshot.png")
+![APP SCREENSHOT](img\Screenshot.png)
 
 ---
 
