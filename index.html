@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://bytegrad.com/course-assets/css/1/favicon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css"
+      integrity="sha512-rSWTr6dChYCbhpHaT1hg2tf4re2jUxBWTuZbujxKg96+T87KQJriMzBzW5aqcb8jmzBhhNSx4XYGA6/Y+ok1vQ=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <title>Social APP | Flexbox</title>
+  </head>
+
+  <body>
+    <!-- !header start -->
+    <header class="header">
+      <img
+        class="logo"
+        src="https://bytegrad.com/course-assets/css/1/logo.svg"
+        alt="Logo"
+      />
+      <button class="dd-toggle">File</button>
+      <button class="dd-toggle">View</button>
+      <button class="dd-toggle">New</button>
+      <button class="dd-toggle">
+        <i class="fas fa-crown dd-toggle__icon"></i>
+      </button>
+      <button class="dd-toggle">
+        <i class="fas fa-bell dd-toggle__icon"></i>
+      </button>
+      <button class="dd-toggle">
+        <img
+          class="dd-toggle__img"
+          src="https://images.unsplash.com/photo-1614247484197-9c6164bb532f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&fit=crop&w=60&q=100"
+          alt="User photo"
+        />
+
+        <span class="dd-toggle__text">James L</span>
+      </button>
+
+      <!-- !header end -->
+    </header>
+    <div class="container">
+      <div class="sidebar">
+        <section class="menu">
+          <button class="button__menu">
+            <i class="fas fa-camera button__icon"></i>
+            <span class="text__btn"> Films</span>
+          </button>
+
+          <button class="button__menu button__menu--active">
+            <i class="fas fa-book button__icon"></i>
+            <span class="text__btn"> Books</span>
+          </button>
+
+          <button class="button__menu">
+            <i class="fas fa-font button__icon"></i>
+            <span class="text__btn"> Font</span>
+          </button>
+
+          <button class="button__menu">
+            <i class="fas fa-headphones"></i>
+            <span class="text__btn"> Music</span>
+          </button>
+        </section>
+        <!-- menu end -->
+        <footer class="footer">
+          <small class="copyright"> &copy;Coded by K.P(dev):</small>
+        </footer>
+      </div>
+      <!-- !sidebar end -->
+
+      <section class="panel">
+        <div class="panel__top">
+          <h1 class="main-heading">Images</h1>
+          <i class="fas fa-chevron-up panel__collapse-icon"></i>
+        </div>
+        <!-- panel top end -->
+        <div class="panel__images">
+          <img
+            class="panel__img"
+            src="https://images.unsplash.com/photo-1543096222-72de739f7917?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&fit=crop&w=280&q=100"
+            alt="Uploaded image"
+          />
+
+          <img
+            class="panel__img"
+            src="https://images.unsplash.com/photo-1475598322381-f1b499717dda?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&fit=crop&h=280&q=100"
+            alt="Uploaded image"
+          />
+
+          <img
+            class="panel__img"
+            src="https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&fit=crop&w=280&q=100"
+            alt="Uploaded image"
+          />
+
+          <img
+            class="panel__img"
+            src="https://images.unsplash.com/photo-1615749190340-34c7c3b16784?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&fit=crop&w=280&q=100"
+            alt="Uploaded image"
+          />
+
+          <img
+            class="panel__img"
+            src="https://images.unsplash.com/photo-1615707547992-93435f1e7f13?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&fit=crop&w=280&q=100"
+            alt="Uploaded image"
+          />
+          <button class="panel__btn">
+            <i class="fa fa-plus panel__plus-icon"></i>
+          </button>
+        </div>
+      </section>
+      <main class="main">
+        <div class="info-bar">
+          <section class="content-top">
+            <a href="#" class="content-top__link">
+              Facebook
+              <i class="fa fa-angle-right content-top__icon"></i>
+            </a>
+            <span class="content-top__name">My flex exercise</span>
+          </section>
+          <button class="button__content-top">Click me</button>
+
+          <!-- info-bar end -->
+        </div>
+        <div class="art-board">
+          <section class="main-content">
+            <img
+              class="main-content__bg-img"
+              src="https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&fit=crop&w=2134&q=100"
+              alt="Background image"
+            />
+
+            <img
+              class="main-content__fg-img"
+              src="https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&fit=crop&w=1453&q=85"
+              alt="Foreground image"
+            />
+            <div class="main-content__circle"></div>
+            <div class="main-content__circle"></div>
+            <div class="main-content__circle"></div>
+            <div class="main-content__circle"></div>
+          </section>
+          <section class="side-tools">
+            <button class="tool">
+              <i class="fa fa-heart"></i>
+            </button>
+            <button class="tool">
+              <i class="fa fa-comment tool__icon"></i>
+            </button>
+            <button class="tool tool__active">
+              <i class="fa fa-pen tool__icon"></i>
+            </button>
+
+            <button class="tool">
+              <i class="fa fa-cloud tool__icon"></i>
+            </button>
+          </section>
+        </div>
+      </main>
+      <!-- end main -->
+    </div>
+    <!-- !end of container -->
+  </body>
+</html>
